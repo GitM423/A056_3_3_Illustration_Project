@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+ 
+Farbe: #202020, #24bff2, #fff, #F5FBFE
+
+social media: #3b5998, #fcaf45, #55acee, #c4302b
+*/
+
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: #202020;
+}
+
+section:not(:first-of-type){
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1{
+    font-size: 5em;
+}
+
+p{
+    font-size: 2em;
+}
+
+section>p{
+    padding: 50px 400px;
+}
+
+img{
+    width: 100%;
+}
+
+img:hover{
+    box-shadow: 0 0 5px #888888;
+}
+
+.dim{
+    opacity: 80%;
+}
+
+.dimmer{
+    opacity: 60%;
+}
+
+/* Navigation */
+nav{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li{
+    display: inline;
+    padding: 0 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #202020;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #202020;
+}
+
+/* Section 1 */
+.btn{
+    display: inline-block;
+    padding: 20px 40px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 5px 10px 0 0;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.download{
+    background: #000000;
+    color: #ffffff;
+}
+
+.subscribe{
+    background: #ffffff;
+    color: #000000;
+}
+
+.grid-container-1{
+    margin: auto;
+    width: 90%;
+    display: grid;
+}
+
+.grid-item-1{
+    padding: 10%;
+}
+
+.grid-col-1{
+    grid-column: 1;
+}
+
+.grid-col-2{
+    grid-column: 2;
+}
+
+.grid-item-center{
+    padding: 5%;
+    text-align: center;
+}
+
+/* Section 2 - illustrations*/
+.grid-container-3{
+    grid-template-columns: auto auto auto;
+}
+
+/* Section 3 - examples*/
+.grid-container-2{
+    grid-template-columns: auto auto;
+}
+
+/* Section 4 - download */
+.membership{
+    display: inline-block;
+    background: #24bff222;
+    border: 1px solid #24bff277;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px 60px;
+}
+
+.membership h2{
+    font-size: 4em;
+    margin: 50px 0;
+}
+
+.membership ul{
+    list-style-type: none;
+    padding: 0%;
+    font-size: 1.3em;
+}
+
+.membership .member-btn{
+    display: inline-block;
+    width: 300px;
+    background: #24bff2;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 30px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.membership .member-btn:hover{
+    background: #24bff2cc;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+/* Section 5 - suggestions*/
+h5{
+    font-size: 1.5em;
+}
+
+h5>a{
+    padding: 10px;
+    text-decoration: none;
+    color: #202020;
+}
+
+h5>a:hover{
+    opacity: 80%;
+    text-decoration: underline;
+}
+
+.fb{
+    color: #3b5998;
+}
+
+.ig{
+    color: #fcaf45;
+}
+
+.tw{
+    color: #55acee;
+}
+
+.yt{
+    color: #c4302b;
+}
